@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.card img {
+  width: 250px;
+  height: 140px;
+  border-radius: 8px;
+
+  @media (max-width: 1000px) {
+    width: 220px;
+    @media (max-width: 768px) {
+      width: 190px;
+      @media (max-width: 500px) {
+        width: 200px;
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.banner {
+  display: flex;
+  width: 100%;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 68px;
+  border-bottom: 1px solid var(--red-primary);
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

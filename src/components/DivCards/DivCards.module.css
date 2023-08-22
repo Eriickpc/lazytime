@@ -1,0 +1,27 @@
+.divcards {
+  display: flex;
+  align-items: center;
+  justify-content: cebter;
+  width: 1250px;
+  margin: 0 auto;
+  padding: 5px;
+  @media (max-width: 1200px) {
+    width: 1000px;
+    @media (max-width: 1000px) {
+      width: 900px;
+      @media (max-width: 768px) {
+        width: 550px;
+        @media (max-width: 500px) {
+          justify-content: space-between;
+          width: 500px;
+        }
+      }
+    }
+  }
+}
+
+.divcards img:hover {
+  transform: scale(1.14);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #222;
+}
